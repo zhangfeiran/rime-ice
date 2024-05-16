@@ -6,6 +6,8 @@
 -- 以词定字，可在 default.yaml → key_binder 下配置快捷键，默认为左右中括号 [ ]
 select_character = require("select_character")
 
+wtf = require("wtf")
+
 -- translators:
 
 -- 日期时间，可在方案中配置触发关键字。

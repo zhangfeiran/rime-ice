@@ -1,0 +1,54 @@
+patch:
+  "switches/@0/reset": 1 # emmmmm
+
+  grammar: zh-hans-t-huayu-v7-bgw
+  translator/contextual_suggestions: true
+  translator/max_homophones: 7
+  translator/max_homographs: 7
+
+  melt_eng/comment_format: []
+
+  speller/algebra/+: 
+    # zh、ch、sh
+    - derive/([zcs])h(ao)$/h$1$2/  # hzi → zhi ; add ao
+    # ia
+    - derive/([qjx])ia$/$1ai/  # qai → qia
+    # an
+    - derive/([wrtypsdfghklzcbnm])an$/$1na/  # dna → dan
+    # en
+    - derive/([wrpsdfghklzcbnm])en$/$1ne/  # rne → ren
+    # in
+    - derive/([qypjlxbnm])in$/$1ni/  # qni → qin
+    # un
+    - derive/([qrtysdghjklzxc])un$/$1nu/  # qnu → qun
+    # ian
+    - derive/([qtpdjlxbnm])ian$/$1ain/
+    # - derive/([qtpdjlxbnm])iao$/$1oia/ #???
+    - derive/([qtpdjlxbnm])iao$/i$1ao/
+
+    # ai
+    - derive/^([bcdlmnpstz])ai$/$1ia/  # wia → wai ; original only wghk
+
+    # iang
+    - derive/([qjlxn])iang$/$1iagn/
+
+    # ing
+    - derive/([qtypdjlxbnm])ing$/i$1ng/
+    
+  key_binder/bindings/+:
+    - {accept: "Control+space", select: japanese, when: always}
+
+  editor/bindings:
+    Shift+Return: confirm	 # shuang!
+
+  engine/processors/@before 0: lua_processor@wtf
+  engine/filters/+:
+    - lua_filter@is_in_user_dict
+  is_in_user_dict: true
+
+  custom_phrase/user_dict: custom_phrase_private
+  
+  recognizer/patterns/rime123: "^rime[0-9]+$"
+  recognizer/patterns/LETTERS: "^[A-Z]+[0-9]+$"
+  recognizer/patterns/rimeime: "^rimeime[-_.0-9]*$"
+
