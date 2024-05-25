@@ -1,8 +1,15 @@
 patch:
+  global_ascii: false
   app_options:
     cmd.exe: {ascii_mode: true}
+    Code.exe: {ascii_mode: true}
     conhost.exe: {ascii_mode: true}
     ditto.exe: {ascii_mode: true}
+    eudic.exe: {ascii_mode: true}
+    everything.exe: {ascii_mode: true}
+    explorer.exe: {ascii_mode: true}
+    FoxitPDFEditor.exe: {ascii_mode: true}
+    GitHubDesktop.exe: {ascii_mode: true}
     mobaxterm.exe: {ascii_mode: true}
     mottynew.exe: {ascii_mode: true}
     windowsterminal.exe: {ascii_mode: true}
