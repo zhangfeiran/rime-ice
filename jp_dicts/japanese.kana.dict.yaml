@@ -54,6 +54,7 @@ sort: by_weight
 げ	ge
 ご	go
 さ	sa
+し	si
 し	shi
 す	su
 せ	se
@@ -64,7 +65,10 @@ sort: by_weight
 ぜ	ze
 ぞ	zo
 た	ta
+ち	ti
 ち	chi
+
+つ	tu
 つ	tsu
 て	te
 と	to
@@ -219,7 +223,8 @@ sort: by_weight
 しゃ	sha
 しゅ	shu
 しょ	sho
-すぃ	si
+
+# すぃ	si
 じぇ	je
 じゃ	ja
 じゅ	ju
@@ -233,11 +238,13 @@ sort: by_weight
 つぃ	tsi
 つぇ	tse
 つぉ	tso
-てぃ	ti
+
+# てぃ	ti
 てゃ	tya
 てゅ	tyu
 てょ	tyo
-とぅ	tu
+
+# とぅ	tu
 ぢぇ	je
 ぢゃ	ja
 ぢゅ	ju

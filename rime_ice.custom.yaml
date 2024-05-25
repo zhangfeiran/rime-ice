@@ -1,5 +1,5 @@
 patch:
-  "switches/@0/reset": 1 # emmmmm
+  "switches/@0/reset": 1 # emmmmm # make global ascii force true ?????? seems not?
 
   grammar: zh-hans-t-huayu-v7-bgw
   translator/contextual_suggestions: true

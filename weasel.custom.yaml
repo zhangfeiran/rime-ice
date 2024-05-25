@@ -4,11 +4,13 @@ patch:
     conhost.exe: {ascii_mode: true}
     ditto.exe: {ascii_mode: true}
     mobaxterm.exe: {ascii_mode: true}
+    mottynew.exe: {ascii_mode: true}
     windowsterminal.exe: {ascii_mode: true}
     
     notepad.exe: {ascii_mode: false}
     onenote.exe: {ascii_mode: false}
     wechat.exe: {ascii_mode: false}
+    wechatappex.exe: {ascii_mode: false}
     winword.exe: {ascii_mode: false}
   "style/color_scheme": purity_of_form_custom
   "style/comment_font_point": 10
