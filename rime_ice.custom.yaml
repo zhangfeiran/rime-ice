@@ -35,8 +35,8 @@ patch:
     # ing
     - derive/([qtypdjlxbnm])ing$/i$1ng/
     
-  key_binder/bindings/+:
-    - {accept: "Control+space", select: japanese, when: always}
+  # key_binder/bindings/+:
+  #   - {accept: "Control+space", select: japanese, when: always}
 
   editor/bindings:
     Shift+Return: confirm	 # shuang!

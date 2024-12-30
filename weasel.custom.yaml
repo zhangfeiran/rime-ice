@@ -8,7 +8,7 @@ patch:
     eudic.exe: {ascii_mode: true}
     everything.exe: {ascii_mode: true}
     explorer.exe: {ascii_mode: true}
-    FoxitPDFEditor.exe: {ascii_mode: true}
+    FoxitPDFEditor.exe: {ascii_mode: false}
     GitHubDesktop.exe: {ascii_mode: true}
     mobaxterm.exe: {ascii_mode: true}
     mottynew.exe: {ascii_mode: true}

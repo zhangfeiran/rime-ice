@@ -394,9 +394,10 @@ punctuator:
   import_preset: default
 
 key_binder:
-  bindings:
-    - {accept: "Control+Shift+1", select: .next, when: always}
-    - {accept: "Control+space", select: rime_ice, when: always}
+  import_preset: default
+  # bindings:
+    # - {accept: "Control+Shift+1", select: .next, when: always}
+    # - {accept: "Control+space", select: rime_ice, when: always}
     # - {accept: "Control+Shift+n", select: japanese, when: always}
     # - {accept: "Control+Shift+N", select: japanese, when: always}
     # - {accept: "Control+Shift+k", select: korean, when: always}
@@ -409,11 +410,11 @@ key_binder:
     # - {accept: "Control+Shift+M", select: td_pinyin_flypy_extra, when: always}
     # - {accept: "Control+Shift+l", select: international, when: always}
     # - {accept: "Control+Shift+L", select: international, when: always}
-    - {accept: "F16", select: .next, when: always}
+    # - {accept: "F16", select: .next, when: always}
     # - {accept: "F19", select: international, when: always}
     # [] Pagination
-    - {accept: bracketleft, send: Page_Up , when: has_menu}
-    - {accept: bracketright, send: Page_Down , when: has_menu}
+    # - {accept: bracketleft, send: Page_Up , when: has_menu}
+    # - {accept: bracketright, send: Page_Down , when: has_menu}
 
 recognizer:
   import_preset: default

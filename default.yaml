@@ -197,7 +197,7 @@ key_binder:
 
     # 两种按键配置，鼠须管 Control+Shift+4 生效，小狼毫 Control+Shift+dollar 生效，都写上了。
     # numbered_mode_switch:
-    # - { when: always, select: .next, accept: Control+Shift+1 }                  # 在最近的两个方案之间切换
+    - { when: always, select: .next, accept: Control+Shift+1 }                  # 在最近的两个方案之间切换
     # - { when: always, select: .next, accept: Control+Shift+exclam }             # 在最近的两个方案之间切换
     # - { when: always, toggle: ascii_mode, accept: Control+Shift+2 }             # 切换中英
     # - { when: always, toggle: ascii_mode, accept: Control+Shift+at }            # 切换中英
@@ -225,7 +225,7 @@ key_binder:
     # - { when: composing, accept: Control+v, send: Page_Down }
 
     # optimized_mode_switch:
-    # - { when: always, accept: Control+Shift+space, select: .next }
+    - { when: always, accept: Control+Shift+space, select: .next }
     # - { when: always, accept: Shift+space, toggle: ascii_mode }
     # - { when: always, accept: Control+comma, toggle: full_shape }
     # - { when: always, accept: Control+period, toggle: ascii_punct }
