@@ -5,7 +5,7 @@
 # ------- 补充的英文词汇 -------
 ---
 name: en_ext
-version: "2024-06-10"
+version: "2024-12-27"
 sort: by_weight
 ...
 # 一些杂项
@@ -249,6 +249,7 @@ ERC-1155	ERC-1155
 High Sierra	HighSierra
 Mojave	Mojave
 Big Sur	BigSur
+Sequoia	Sequoia
 TypeORM	TypeORM
 RPG	RPG
 Role-Playing Game	RPG
@@ -303,6 +304,9 @@ Chief Operating Officer	COO
 Chief Operating Officer	ChiefOperatingOfficer
 iShot	iShot
 TapTap	TapTap
+HDD	HDD
+Hard disk drive	HDD
+Hard disk drive	Harddiskdrive
 HHD	HHD
 Hybrid drive	HHD
 Hybrid drive	Hybriddrive
@@ -347,9 +351,12 @@ AlphaFold	AlphaFold
 Valve	Valve
 CS:GO	CS:GO
 Counter-Strike: Global Offensive	CS:GO
+Counter-Strike: Global Offensive	Counter-Strike:GlobalOffensive
 Counter-Strike	Counter-Strike
+Counter-Strike 2	Counter-Strike2
+CS2	CS2
+Counter-Strike 2	CS2
 Tesla	Tesla
-Polo	Polo
 Code Runner	CodeRunner
 AfterShokz Aeropex	AfterShokzAeropex
 AfterShokz	AfterShokz
@@ -396,7 +403,6 @@ International Data Corporation	IDC
 International Data Corporation	InternationalDataCorporation
 Wunderlist	Wunderlist
 VMware	VMware
-Fusion	Fusion
 Flyme	Flyme
 VMware Fusion	VMwareFusion
 VMware Fusion Player	VMwareFusionPlayer
@@ -426,7 +432,6 @@ Xbox One	XboxOne
 Xbox One X	XboxOneX
 Xbox Series	XboxSeries
 Xbox Series S	XboxSeriesS
-Switch	Switch
 CSS	CSS
 Cascading Style Sheets	CSS
 Cascading Style Sheets	CascadingStyleSheets
@@ -441,7 +446,6 @@ IntelliJ IDEA Community	IntelliJIDEACommunity
 IntelliJ IDEA Ultimate	IntelliJIDEAUltimate
 IDEA Community	IDEACommunity
 IDEA Ultimate	IDEAUltimate
-IDE	IDE
 NTR	NTR
 Notion	Notion
 Notion AI	NotionAI
@@ -467,7 +471,6 @@ Apple Music	AppleMusic
 TED	TED
 DeepL	DeepL
 Homebrew	Homebrew
-Finder	Finder
 VMess	VMess
 Shadowsocks	Shadowsocks
 PC	PC
@@ -721,6 +724,8 @@ Instacast	Instacast
 Instashare	Instashare
 Intensify	Intensify
 IP	IP
+internet protocol	IP
+internet protocol	internetprotocol
 iPack	iPack
 iPad Air	iPadAir
 iPad mini	iPadmini
@@ -1181,11 +1186,6 @@ New Technology File System	NewTechnologyFileSystem
 Microsoft NTFS	NTFS
 Microsoft NTFS	MicrosoftNTFS
 ChromeOS	ChromeOS
-GCD	GCD
-Grand Central Dispatch	GCD
-Grand Central Dispatch	GrandCentralDispatch
-greatest common divisor	GCD
-greatest common divisor	Greatestcommondivisor
 Ed Sheeran	EdSheeran
 Sheeran	Sheeran
 Cloudflare Images	CloudflareImages
@@ -1198,10 +1198,8 @@ HarmonyOS	HarmonyOS
 NPC	NPC
 Non-Player Character	NPC
 Non-Player Character	Non-PlayerCharacter
-MVP	MVP
 Quantumult X	QuantumultX
-Confluence	Confluence
-Skynet	Skynet
+skynet	skynet
 serverless	serverless
 Identifier	Identifier
 NameCheap	NameCheap
@@ -1340,7 +1338,6 @@ Software Freedom Conservancy	SFC
 Software Freedom Conservancy	SoftwareFreedomConservancy
 PopCap	PopCap
 PopCap Games	PopCapGames
-Cyberpunk	Cyberpunk
 Kotlin	Kotlin
 PhpStorm	PhpStorm
 Datalore	Datalore
@@ -1531,7 +1528,6 @@ Ubuntu	Ubuntu
 Windows	Windows
 Microsoft	Microsoft
 Nintendo	Nintendo
-Nexus	Nexus
 Wii U	WiiU
 Wii	Wii
 Oracle	Oracle
@@ -2141,12 +2137,32 @@ Microsoft Visual C++	MicrosoftVisualC++
 DBeaver	DBeaver
 Vite	Vite
 AE86	AE86
-M1	M1
-M2	M2
-M3	M3
-M4	M4
-3G	3G
-4G	4G
-5G	5G
-2D	2D
-4D	4D
+Floorp	Floorp
+Costco	Costco
+NFC	NFC
+Near Field Communication	NFC
+Near Field Communication	NearFieldCommunication
+Apple Intelligence	AppleIntelligence
+7-Zip	7-Zip
+LGTM	LGTM
+PTAL	PTAL
+GPT-4o	GPT-4o
+Grok	Grok
+MBR	MBR
+master boot record	masterbootrecord
+master boot record	MBR
+EFI	EFI
+Extensible Firmware Interface	ExtensibleFirmwareInterface
+Extensible Firmware Interface	EFI
+UEFI	UEFI
+Unified Extensible Firmware Interface	UnifiedExtensibleFirmwareInterface
+Unified Extensible Firmware Interface	UEFI
+CMOS	CMOS
+complementary metal-oxide-semiconductor	complementarymetal-oxide-semiconductor
+complementary metal-oxide-semiconductor	CMOS
+OOP	OOP
+object-oriented programming	object-orientedprogramming
+object-oriented programming	OOP
+IDE	IDE
+integrated development environment	integrateddevelopmentenvironment
+integrated development environment	IDE
